@@ -2,7 +2,7 @@ const express = require("express");
 const NodeCache = require("node-cache");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 const minCostCache = new NodeCache({ stdTTL: 300 });
 
